@@ -1,7 +1,12 @@
-export default function ListContainer(){
+import { ReactNode } from 'react';
+
+interface ListContainerProps {
+    children: ReactNode;
+}
+export default function ListContainer({ children }: ListContainerProps){
 
     return (
-        <div>dd</div>
+        <div className='flex w-[41.125rem] h-[46rem] bg-white rounded-[1.875rem]'>{children}</div>
 
     );
 
