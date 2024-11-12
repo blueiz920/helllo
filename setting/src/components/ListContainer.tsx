@@ -6,7 +6,7 @@ interface ListContainerProps {
 export default function ListContainer({ children }: ListContainerProps){
 
     return (
-        <div className='flex w-[41.125rem] h-[46rem] bg-white rounded-[1.875rem]'>{children}</div>
+        <div className='flex w-[41.125rem] h-[44rem] bg-white rounded-[1.875rem] '>{children}</div>
 
     );
 
